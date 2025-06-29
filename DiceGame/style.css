@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  background-color: rgb(44, 41, 62);
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgba(33, 219, 225, 0.84);
+  margin: 20px 0;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.title > p {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(33, 219, 225, 0.84);
+}
+
+.diceBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.item {
+  background-color: red;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.item-title {
+  width: 200px;
+  text-align: center;
+}
+
+.player-label {
+  font-size: 1.5rem;
+  color: rgba(33, 219, 225, 0.84);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dice {
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-rows: repeat(3, 20px);
+  gap: 5px;
+  margin: 10px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden !important; 
+}
+
+.visible {
+  visibility: visible;
+}
+button {
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #16a085;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  background-color: #1a1a2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+  font-size: 1rem;
+  z-index: 10;
+}
+
+footer .social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  transform: scale(0.6);
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1);
+}
+
+#tag {
+  animation: dimLightAnimation 2s infinite ease-in-out;
+  margin-left: 5px;
+}
+
+@keyframes dimLightAnimation {
+  0%, 100% { color: green; font-size: 16px; }
+  20% { color: yellow; font-size: 17px; }
+  40% { color: red; font-size: 16px; }
+  60% { color: hotpink; font-size: 17px; }
+  80% { color: aqua; font-size: 16px; }
+}

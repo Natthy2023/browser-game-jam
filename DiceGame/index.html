@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Web App Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body onload="diceGame()">
+    <div class="container">
+      <div class="row header">
+        <h1>
+          <span class="win-1">
+            <img
+              width="100"
+              height="100"
+              src="https://img.icons8.com/ios-filled/100/FA5252/empty-flag.png"
+              alt="flag"
+            />
+          </span>
+          <span class="title-text">Refresh Me</span>
+          <span class="win-2 hidden">
+            <img
+              width="100"
+              height="100"
+              src="https://img.icons8.com/ios-filled/100/FA5252/empty-flag.png"
+              alt="flag"
+            />
+          </span>
+        </h1>
+        <div style="text-align: center; margin-bottom: 20px">
+          <button
+            onclick="diceGame()"
+            style="padding: 10px 20px; font-size: 1.2rem; cursor: pointer"
+          >
+            Roll Dice 🎲
+          </button>
+        </div>
+      </div>
+
+      <!-- Game Board -->
+      <div class="row gameBoard">
+        <!-- Player Titles Above Dice -->
+        <div class="diceBox">
+          <div class="item-title">
+            <p class="player-label">Player 1</p>
+          </div>
+          <div class="item-title">
+            <p class="player-label">Player 2</p>
+          </div>
+        </div>
+
+        <!-- Dice Boxes -->
+        <div class="diceBox">
+          <!-- Player 1 Dice -->
+          <div class="item item-1">
+            <div class="dice row-1">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <!-- Player 2 Dice -->
+          <div class="item item-2">
+            <div class="dice row-2">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Developed by <i id="tag">NADX</i></p>
+      <div class="social-media">
+        <img
+          src="https://img.icons8.com/nolan/64/github.png"
+          alt="github"
+          title="GitHub"
+          class="icon"
+        />
+        <img
+          src="https://img.icons8.com/fluency/48/telegram-app.png"
+          alt="telegram"
+          title="Telegram"
+          class="icon"
+        />
+        <img
+          src="https://img.icons8.com/color/48/instagram-new--v1.png"
+          alt="instagram"
+          title="Instagram"
+          class="icon"
+        />
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
