@@ -15,7 +15,7 @@ A fun and simple web-based dice game where two players roll a die, and the highe
 
 ## 📸 Screenshot
 
-![Dice Game Screenshot](https://i.imgur.com/img.png) 
+![Dice Game Screenshot](DiceGame/img.png) 
 
 
 ---
