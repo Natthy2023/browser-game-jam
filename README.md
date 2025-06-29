@@ -31,9 +31,8 @@ Got ideas or want to contribute? Pull requests and issues are welcome!
 Let’s build this jam bigger and better together! 🚀
 
 📫 Connect with Me
-
-
-
+![Email](https://natnaelasfaw2023@gmail.com)
+![Telegram](https://t.me/nisimp)
 Thanks for stopping by!
 Happy gaming and coding! ✨
 
