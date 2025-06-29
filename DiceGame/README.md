@@ -1,35 +1,23 @@
-# 🎲 Dice Game - by NADX
+## 🎲 Dice Game
 
-A fun and simple web-based dice game where two players roll a die, and the higher number wins! Refresh the page to roll again and test your luck. 🎉
-
----
-
-## ✨ Features
-
-- 🎯 Random dice roll each time
-- 🧠 Logic to determine the winner
-- 🎨 Stylish dice layout using CSS grid
-- 🌐 No dependencies – pure HTML, CSS, and JavaScript
+A simple browser-based dice game where two players roll a die. The higher number wins!
 
 ---
 
-## 📸 Screenshot
+![Dice Game Screenshot](DiceGame/img.png)
 
-![Dice Game Screenshot](DiceGame/img.png) 
+### 🚀 Features
+- Random dice rolls
+- Visual dice dot patterns
+- Win/draw announcement
+- Clean and responsive layout
 
+### 🛠 Built With
+- HTML
+- CSS
+- JavaScript
 
----
-
-## 🔧 Built With
-
-- 🧾 HTML5  
-- 🎨 CSS3 (Grid + Flexbox)  
-- ⚙️ JavaScript (Vanilla)
-
----
-
-## 🚀 Getting Started
-
-1. Clone this repo  
-   ```bash
-   git clone https://github.com/yourusername/dice-game.git
+### 📩 Contact
+- 🧠 Created by **I'm NADX**
+- ✉️ Email: natnaelasfaw2023@gmail.com
+- 💬 Telegram: [@nisimp](https://t.me/nisimp)
