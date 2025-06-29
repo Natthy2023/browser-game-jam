@@ -35,6 +35,7 @@ Let’s build this jam bigger and better together! 🚀
 [![Email](https://img.shields.io/badge/Email-natnaelasfaw2023@gmail.com-c14438?style=flat&logo=gmail&logoColor=white)](mailto:natnaelasfaw2023@gmail.com)  
 [![Telegram](https://img.shields.io/badge/Telegram-@nisimp-0088cc?style=flat&logo=telegram)](https://t.me/nisimp)
 
+
 Thanks for stopping by!
 Happy gaming and coding! ✨
 
