@@ -41,7 +41,8 @@ A fun and interactive virtual drum kit built using **HTML**, **CSS**, and **Java
 
 <details> <summary>📁 Click to view Mermaid Diagram</summary>
 
-```graph TD
+```mermaid
+graph TD
   A[DrumKit] --> B[index.html]
   A --> C[style.css]
   A --> D[script.js]
