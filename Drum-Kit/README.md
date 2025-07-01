@@ -49,11 +49,12 @@ graph TD
   A --> E[sounds/]
   E --> F[tom1.mp3]
   E --> G[tom2.mp3]
-  E --> H[...]
+  E --> H[other .mp3 files]
 
-</details>
+
+
 ```
-
+</details>
 ---
 
 ## 👤 Author
