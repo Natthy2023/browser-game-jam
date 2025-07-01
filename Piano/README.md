@@ -58,10 +58,12 @@ A fun, interactive virtual piano built with **HTML**, **CSS**, and **JavaScript*
 
 👨‍💻 Author
 Made with ❤️ by NADX
-📬 Email: natnaelasfaw2023@gmail.com
 
-📨 Telegram: @nisimp
+📬 Email: [natnaelasfaw2023@gmail.com](mailto:natnaelasfaw2023@gmail.com)  
+
+💬 Telegram: [@nisimp](https://t.me/nisimp)
 
 📄 License
+
 This project is open-source and free to use for learning and inspiration.
 
