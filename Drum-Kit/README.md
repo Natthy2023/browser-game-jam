@@ -8,7 +8,7 @@ A fun and interactive virtual drum kit built using **HTML**, **CSS**, and **Java
 
 ## 🚀 Live Demo
 
-👉 [Play it here!](https://natthy2023.github.io/browser-game-jam/Drum-Kit/)
+👉 [Play it here!](https://nadxgames.netlify.app/drum-kit/)
 
 ---
 
