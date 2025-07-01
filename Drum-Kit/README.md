@@ -2,7 +2,7 @@
 
 A fun and interactive virtual drum kit built using **HTML**, **CSS**, and **JavaScript**. Hit your keyboard keys and start drumming!
 
-![Drum Kit Demo](https://github.com/Natthy2023/browser-game-jam/tree/e8fa9c8212b2b5c5fea381545e725cb18ee25768/Drum-Kit/images/drum_Kit.png)
+![Drum Kit Demo](https://github.com/Natthy2023/browser-game-jam/blob/2a671b343048c9b40a990f150433a48e600f6033/Drum-Kit/images/drum_Kit.png)
 
 ---
 
@@ -39,14 +39,21 @@ A fun and interactive virtual drum kit built using **HTML**, **CSS**, and **Java
 
 ## 📁 Folder Structure
 
-DrumKit/
-├── index.html
-├── style.css
-├── index.js
-└── sounds/
-├── tom1.mp3
-├── tom2.mp3
-└── ...
+<details> <summary>📁 Click to view Mermaid Diagram</summary>
+mermaid
+Copy
+Edit
+graph TD
+  A[DrumKit] --> B[index.html]
+  A --> C[style.css]
+  A --> D[script.js]
+  A --> E[sounds/]
+  E --> F[tom1.mp3]
+  E --> G[tom2.mp3]
+  E --> H[...]
+
+</details>
+
 
 ---
 
