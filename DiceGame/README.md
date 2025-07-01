@@ -7,7 +7,7 @@ A simple yet fun web-based dice game where two players roll dice — the higher 
 ---
 
 ## 🚀 Live Demo  
-▶️ [Play Now](https://natthy2023.github.io/browser-game-jam/DiceGame/)
+▶️ [Play Now](https://nadxgames.netlify.app/dicegame/)
 
 ---
 
