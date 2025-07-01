@@ -17,7 +17,7 @@ A fun, interactive virtual piano built with **HTML**, **CSS**, and **JavaScript*
 
 ## 🚀 Live Demo
 
-🔗 [Click here to play the piano now!](https://natthy2023.github.io/browser-game-jam/Playable-Piano/)  
+🔗 [Click here to play the piano now!](https://nadxgames.netlify.app/piano/)  
 
 
 
