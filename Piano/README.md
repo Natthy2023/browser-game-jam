@@ -23,7 +23,7 @@ A fun, interactive virtual piano built with **HTML**, **CSS**, and **JavaScript*
 
 ## 📂 Project Structure
 
-Playable-Piano/
+```Playable-Piano/
 ├── index.html
 ├── style.css 
 ├── script.js 
@@ -34,6 +34,7 @@ Playable-Piano/
 │ └── ...
 ├── images/
 │ └── piano-preview.png
+```
 
 
 
