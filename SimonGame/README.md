@@ -2,6 +2,16 @@
 
 A simple and interactive **Simon Game** built with **HTML**, **CSS**, and **JavaScript**. Test your memory by following the sequence of colors. Each level adds a new challenge!
 
+---
+
+## 🎥 Demo Preview
+
+[![Simon Game Video](https://img.youtube.com/vi/1Yqj76Q4jJ4/0.jpg)](https://youtu.be/1Yqj76Q4jJ4)
+
+Click the image above to watch the **game demo video** on YouTube.
+
+---
+
 🌐 **Live Demo**: [Click here to play](https://nadxgames.netlify.app/simongame/)
 
 ---
@@ -44,14 +54,6 @@ A simple and interactive **Simon Game** built with **HTML**, **CSS**, and **Java
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
----
-
-## 📸 Screenshot
-
-![Simon Game Preview](https://nadxgames.netlify.app/simongame/screenshot.png)
-
-> _(Make sure `screenshot.png` is added in the correct public folder if you use this link)_
 
 ---
 
