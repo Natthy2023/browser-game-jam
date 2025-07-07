@@ -27,7 +27,7 @@ Made by NADX
 
 📫 Connect with Me
 
-    Telegram : https://t.me/nisimp
+   Telegram : ```https://t.me/nisimp```
     
 
 Happy gaming and coding! ✨
