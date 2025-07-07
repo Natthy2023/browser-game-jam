@@ -10,18 +10,28 @@ Hi! I’m **NADX**, and this is my personal collection of simple, fun, lightweig
 
 🌐 HTML   🎨 CSS   ⚙️ JavaScript
 
-🚀 What’s Inside?
+```🚀 What’s Inside?
+
 🎲 Classic dice games, puzzles, and more
+
 ⚡ Lightweight, no installs needed
+
 👾 Perfect for casual gamers & beginners
+
 🆕 Regularly updated with fresh mini-games 🎉
+```
+---
 
-🎯 Why This Repo?
+```🎯 Why This Repo?
 This is my mini game jam — a creative playground where I build quick games to experiment, sharpen skills, and share fun projects with you.
+```
+---
 
-🤝 Contributions & Ideas
+```🤝 Contributions & Ideas
 Got ideas or want to contribute? Pull requests and issues are welcome!
 Let’s build this jam bigger and better together! 🚀
+```
+---
 
 Made by NADX
 
