@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(9, 9, 13, 1) 13%,
+    rgba(0, 212, 255, 1) 97%
+  );
+  color: #fff;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 0.8em;
+  text-align: center;
+  color: #020024;
+}
+button {
+  width: 100px;
+  border: none;
+  margin: 10px 2px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: #020024;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+button:hover {
+  background-color: #020024c1;
+}
+.container {
+  width: 400px;
+  display: flex;
+  height: 360px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+}
+.container .upper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.upper .side {
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.side-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clear-btn {
+  display: block;
+  width: 50px;
+  padding: 3px;
+  font-size: 0.75em;
+}
+.vs-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.vs-box h2 {
+  font-size: 3em;
+}
+.result-box {
+  padding: 10px;
+}
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.btn-wrapper img {
+  width: 25px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .container .upper {
+    flex-direction: column;
+    height: auto;
+  }
+  .btn-wrapper {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-wrapper button {
+    width: 80px;
+  }
+}
