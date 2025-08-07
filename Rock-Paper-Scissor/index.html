@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <div class="container">
+     <div class="upper">
+      <div class="side side-left">
+      <h2>
+      Computer Choice
+    </h2>
+    <img src="images/default.jpeg" id="computer-choice" />
+     </div>
+     <div class="side side-middle">
+      <button class="clear-btn">Clear</button>
+      <div class="vs-box">
+        <h2>VS</h2>
+      </div>
+     </div>
+    <div class="side side-right">
+      <h2>Your Choice </h2>
+      <img src="images/default.jpeg" id="user-choice" />
+    </div>
+    
+     </div>
+     <div class="result-box">
+      <h2>Result : <span id="result"></span></h2>
+    </div>
+    <div class="btn-wrapper">
+     <div>
+      <img src="./images/rock.jpeg" alt="rock">
+       <button class="btn" id="rock">rock</button>
+     </div>
+    <div>
+      <img src="./images/paper.png" alt="paper">
+      <button class="btn" id="paper">paper</button>
+    </div>
+    <div>
+      <img src="./images/scissor.jpeg" alt="scissor">
+      <button class="btn" id="scissor">scissor</button>
+    </div>
+    
+    </div>
+   </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
