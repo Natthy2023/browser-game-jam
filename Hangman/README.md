@@ -45,7 +45,7 @@ A browser-based Hangman game built with **HTML**, **CSS**, and **vanilla JavaScr
 
 ## 🌗 Theme Toggle
 
-* Click **"Toggle Dark/Light"** to switch between light and dark mode.
+* Click **"Toggle Dark/Light moon Icon"** to switch between light and dark mode.
 * Canvas drawings automatically adapt to the theme.
 
 
