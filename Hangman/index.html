@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hangman Game</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="Stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1>Hangman</h1>
+  <div class="controls">
+    <button id="toggle-theme"><i class="fa fa-moon"></i></button>
+    <button id="restart">Restart</button>
+  </div>
+  <canvas id="hangmanCanvas" width="200" height="200"></canvas>
+  <div class="word" id="word"></div>
+  <div class="letters" id="letters"></div>
+  <div class="message" id="message"></div>
+  <script src="./script.js"></script>
+</body>
+</html>
