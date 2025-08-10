@@ -1,0 +1,79 @@
+ :root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --accent-color: #4a90e2;
+    --wrong-color: #e94e4e;
+  }
+  [data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #f0f0f0;
+    --accent-color: #76a9fa;
+    --wrong-color: #ff7b7b;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  canvas {
+    background: var(--bg-color);
+    border: 2px solid var(--text-color);
+    margin-top: 20px;
+    transition: border-color 0.3s;
+  }
+
+  .word {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    margin: 20px 0;
+  }
+
+  .letters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 10px;
+    max-width: 400px;
+  }
+
+  button {
+    padding: 10px;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover:not(:disabled) {
+    background: var(--wrong-color);
+  }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
